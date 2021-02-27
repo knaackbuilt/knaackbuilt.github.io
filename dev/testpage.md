@@ -1,6 +1,8 @@
 ---
 layout: testlayout.njk
-title: My Rad Markdown Blog Post
+title: Ha this is a title
 callout: did this work?
 ---
 # {{ title }}
+
+I'm typing some body content
