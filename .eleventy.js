@@ -1,7 +1,9 @@
 module.exports = {
+    
+    
     dir: {
         input: "dev",
-        output: "docs"
-        
+        output: "docs",
+        layouts: "_layouts"
     }
 };
