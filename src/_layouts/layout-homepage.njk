@@ -7,17 +7,9 @@
     <link href="./css/tailwind.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,600;0,700;0,800;1,400;1,700;1,800&display=swap" rel="stylesheet"> 
-    <title>Knaackbuilt.dev</title>
+    <title>{{ title }}</title>
   </head>
   <body class="mx-auto w-5/6">
-   <h1>Knaackbuilt.dev</h1>
-<div class="mx-auto border border-gray-500 p-4 bg-gray-200 w-1/2 my-6 shadow-xl rounded-md">
-    <p class="text-center font-bold m-4"> Here is the main text of the callout </p>
-    <div class="flex justify-center m-8">
-        <a href="/components" class="text-center p-4 max-w-max border-black border-solid rounded-3xl border hover:bg-gray-400 "> 
-            Component Index </a>
-    </div>
-</div>
-
+   {{ content | safe }}
   </body>
 </html>
