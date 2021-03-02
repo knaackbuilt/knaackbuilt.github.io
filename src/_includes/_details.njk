@@ -1,4 +1,6 @@
-<details class="cursor-pointer">
-    <summary>What is happening</summary>    
-    <p>Hey this is resume item</p>
+{% macro details(summary, detailtext) %}
+<details class="mx-auto cursor-pointer w-2/3 my-6">
+    <summary class="font-bold">{{ summary }}</summary>    
+    <p class="my-4 ml-4">{{ detailtext }}</p>
     </details>
+    {% endmacro %}
