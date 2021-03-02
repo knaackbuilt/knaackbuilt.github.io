@@ -1,6 +1,13 @@
-{% macro card(title, content) %}
-<div class="card">
-  <h2>{{ title }}</h2>
-  <p>{{ content }}</p>
+{% macro card(title, content, link, linktext) %}
+<div class="m-4 border-solid border-gray-700 border">
+  
+  
+  <h2 class="text-xl font-bold"><a href="{{ link | replace("[link]", "") }}" class="hover:underline hover:text-gray-700"> {{ title | replace("[title]", "")}}</a></h2>
+
+  <p>{{ content | replace("[content]", "")}}</p>
+
+  <a href="{{ link | replace("[link]", "") }}" class=""> {{ linktext | replace("[linktext]", "") }} </a>
+ 
+
 </div>
 {% endmacro %}

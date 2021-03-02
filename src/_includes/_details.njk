@@ -1,6 +1,6 @@
-{% macro details(summary, detailtext) %}
-<details class="mx-auto cursor-pointer w-2/3 my-6">
-    <summary class="font-bold">{{ summary }}</summary>    
-    <p class="my-4 ml-4">{{ detailtext }}</p>
+{% macro details(title, content) %}
+<details class="cursor-pointer col-span-3 my-6">
+    <summary class="font-bold">{{ title | replace("[title]", "")}}</summary>    
+    <p class="my-4 ml-4">{{ content | replace("[content]", "")}}</p>
     </details>
     {% endmacro %}
