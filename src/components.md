@@ -9,7 +9,7 @@ title: Component Index
 {{ macro.callout(
     "[content]Here is the main text of the callout", 
     "[ctatext]Call to Action Button", 
-    "[ctalink]https://apple.com"
+    "[ctalink]tableau-quick-styles.pdf"
     )}}
 
 

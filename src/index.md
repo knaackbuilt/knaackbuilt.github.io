@@ -8,7 +8,7 @@ title: Knaackbuilt.dev
 {{ macro.card(
     "[title]one",
     "[content]two",
-    "[link]https://apple.com",
+    "[link]/components",
     "[linktext]our",
     "[imgsource]captain_ahab.jpg",
     "[imgalt]Captain ahab"
