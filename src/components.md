@@ -1,6 +1,5 @@
 ---
 layout: layout.njk
-templateEngineOverride: njk,md
 title: Component Index
 ---
 # {{ title }}
@@ -26,5 +25,14 @@ title: Component Index
     "[title]one",
     "[content]two",
     "[link]https://apple.com",
-    "[linktext]our"
+    "[linktext]our",
+    "[imgsource]captain_ahab.jpg",
+    "[imgalt]Captain ahab"
 )}}
+
+1. one
+2. two
+3. three
+
+## and some headings
+and some text

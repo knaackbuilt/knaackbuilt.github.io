@@ -1,4 +1,4 @@
-{% macro card(title, content, link, linktext) %}
+{% macro card(title, content, link, linktext, imgsource, imgalt) %}
 <div class="m-4 border-solid border-gray-700 border">
   
   
@@ -7,6 +7,8 @@
   <p>{{ content | replace("[content]", "")}}</p>
 
   <a href="{{ link | replace("[link]", "") }}" class=""> {{ linktext | replace("[linktext]", "") }} </a>
+
+  <img src="{{ imgsource | replace("[imgsource]", "../img/")}}" alt="{{ imgalt | replace("[imgalt]", "")}}" class="" />
  
 
 </div>
