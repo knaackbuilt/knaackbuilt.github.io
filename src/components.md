@@ -6,15 +6,12 @@ title: Component Index
 # {{ title }}
 
 
-
-
 {% import '_callout.njk' as macro %}
 {{ macro.callout(
     "[content]Here is the main text of the callout", 
     "[ctatext]Call to Action Button", 
     "[ctalink]https://apple.com"
     )}}
-
 
 
 {% import '_details.njk' as macro %}
