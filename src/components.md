@@ -9,7 +9,7 @@ title: Component Index
 {{ macro.callout(
     "[content]Here is the main text of the callout", 
     "[ctatext]Call to Action Button", 
-    "[ctalink]tableau-quick-styles.pdf"
+    "[ctalink]../documents/tableau-quick-styles.pdf"
     )}}
 
 
@@ -21,6 +21,22 @@ title: Component Index
 
 
 {% import '_card.njk' as macro %}
+{{ macro.card(
+    "[title]one",
+    "[content]two",
+    "[link]https://apple.com",
+    "[linktext]our",
+    "[imgsource]captain_ahab.jpg",
+    "[imgalt]Captain ahab"
+)}}
+{{ macro.card(
+    "[title]one",
+    "[content]two",
+    "[link]https://apple.com",
+    "[linktext]our",
+    "[imgsource]captain_ahab.jpg",
+    "[imgalt]Captain ahab"
+)}}
 {{ macro.card(
     "[title]one",
     "[content]two",
