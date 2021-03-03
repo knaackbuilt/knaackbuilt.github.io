@@ -4,32 +4,40 @@ title: Knaackbuilt.dev
 ---
 # {{ title }}
 
-{% import '_card.njk' as macro %}
-{{ macro.card(
-    "[title]Component Index",
-    "[content]Here is an index of all the components that I use on this site",
-    "[link]/components",
-    "[linktext]Component Index",
-    "[imgsource]Eastern-Point-light-Homer.jpg",
-    "[imgalt]Eastern Point Light Painting by Winslow Homer"
-)}}
-{{ macro.card(
-    "[title]Component Index",
-    "[content]Here is an index of all the components that I use on this site",
-    "[link]/components",
-    "[linktext]Component Index",
-    "[imgsource]Northeaster-Homer-1895.jpg",
-    "[imgalt]Northeaster Painting by Winslow Homer"
-)}}
-{{ macro.card(
-    "[title]Component Index",
-    "[content]Here is an index of all the components that I use on this site",
-    "[link]/components",
-    "[linktext]Component Index",
-    "[imgsource]Twilight-at-leeds-Homer-1876.jpg",
-    "[imgalt]Twilight at leeds NY by Winslow Homer"
-)}}
+{% from './_includes/details/_macro.njk' import details %}
+{% from './_includes/callout/_macro.njk' import callout%}
+
+
+
+{{ details({ 
+    title: "NUMBER 2", 
+    content: "this is the content"
+})}}
+
+{{ details({ 
+    title: "NUMBER 3", 
+    content: "this is the content"
+})}}
 
 
 
 
+
+{{ callout({ 
+    content:"huh",
+    ctalink:"https://apple.com",
+    ctatext:"Applessssss"
+})}}
+
+{{ details({ 
+    title: "NUMBER 3", 
+    content: "this is the content"
+})}}
+{{ details({ 
+    title: "NUMBER 3", 
+    content: "this is the content"
+})}}
+{{ details({ 
+    title: "NUMBER 3", 
+    content: "this is the content"
+})}}

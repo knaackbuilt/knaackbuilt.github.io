@@ -1,14 +1,13 @@
 params:
-- name: link
-  type: string
-  required: false
-  description: 
-- name: buttontext
+- name: content
   type: string
   required: true
   description: 
-- name: arialabel
+- name: ctalink
   type: string
-  required: false
+  required: true
   description: 
-
+- name: ctatext
+  type: string
+  required: true
+  description: 

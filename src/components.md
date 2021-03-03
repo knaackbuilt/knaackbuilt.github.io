@@ -2,72 +2,48 @@
 layout: layout.njk
 title: Component Index
 ---
+{% from './_includes/details/_macro.njk' import details %}
+{% from './_includes/callout/_macro.njk' import callout %}
+{% from './_includes/card/_macro.njk' import card %}
+{% from './_includes/button/_macro.njk' import button %}
 # {{ title }}
 
-{% from "./_includes/details/_macro.njk" import details %}
+
 {{ details({ 
     title: "NUMBER 2", 
     content: "this is the content"
 })}}
 
-
-
-
-
-
-
-{% import '_callout.njk' as macro %}
-{{ macro.callout(
-    "[content]Here is the main text of the callout", 
-    "[ctatext]Call to Action Button", 
-    "[ctalink]../documents/tableau-quick-styles.pdf"
-    )}}
-
+{{ details({ 
+    title: "NUMBER 3", 
+    content: "this is the content"
+})}}
 
 {{ details({ 
     title: "NUMBER 3", 
     content: "this is the content"
 })}}
-{% import '_details.njk' as macro %}
-{{ macro.details(
-    "[title]Detail Title", 
-    "[content]Product owners should be multi-disciplinarian representatives of content, design, UX, engineering, and strategy. Effective product owners have experience in all these areas (and more) and are able to blend diverse backgrounds into a well organized framework that models success for the team they work within."
-    ) }}
-    {{ macro.details(
-    "[title]Detail Title", 
-    "[content]Product owners should be multi-disciplinarian representatives of content, design, UX, engineering, and strategy. Effective product owners have experience in all these areas (and more) and are able to blend diverse backgrounds into a well organized framework that models success for the team they work within."
-    ) }}
-    {{ macro.details(
-    "[title]Detail Title", 
-    "[content]Product owners should be multi-disciplinarian representatives of content, design, UX, engineering, and strategy. Effective product owners have experience in all these areas (and more) and are able to blend diverse backgrounds into a well organized framework that models success for the team they work within."
-    ) }}
 
+{{ callout({ 
+    content:"huh",
+    ctalink:"https://apple.com",
+    ctatext:"Applessssss"
+})}}
 
-{% import '_card.njk' as macro %}
-{{ macro.card(
-    "[title]one",
-    "[content]two",
-    "[link]https://apple.com",
-    "[linktext]our",
-    "[imgsource]captain_ahab.jpg",
-    "[imgalt]Captain ahab"
-)}}
-{{ macro.card(
-    "[title]one",
-    "[content]two",
-    "[link]https://apple.com",
-    "[linktext]our",
-    "[imgsource]captain_ahab.jpg",
-    "[imgalt]Captain ahab"
-)}}
-{{ macro.card(
-    "[title]one",
-    "[content]two",
-    "[link]https://apple.com",
-    "[linktext]our",
-    "[imgsource]captain_ahab.jpg",
-    "[imgalt]Captain ahab"
-)}}
+{{ card({ 
+    title:"The card title",
+    content:"the card content",
+    link:"https://apple.com",
+    linktext:"link text",
+    imgsource:"/img/captain_ahab.jpg",
+    imgalt:"captain ahab from moby dick"
+})}}
+
+{{ button({ 
+    link: "https://apple.com", 
+    buttontext: "this is the button",
+    arialabel: "a button to something"
+})}}
 
 1. one
 2. two
@@ -75,4 +51,3 @@ title: Component Index
 
 ## and some headings
 and some text
-

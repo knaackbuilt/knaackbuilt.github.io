@@ -7,10 +7,3 @@ filename: index
 ---
 # {{ title }}
 
-
-{% import '_callout.njk' as macro %}
-{{ macro.callout(
-    "[content]I Changed the callout", 
-    "[ctatext]Call to Action Button", 
-    "[ctalink]https://apple.com"
-    )}}

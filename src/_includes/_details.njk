@@ -1,6 +1,0 @@
-{% macro details(title, content) %}
-<details class="cursor-pointer md:col-span-3 my-2 mx-6 border-dotted border border-gray-900 shadow-md rounded-md">
-    <summary class="font-bold p-4">{{ title | replace("[title]", "")}}</summary>    
-    <p class="my-4 ml-4 px-4">{{ content | replace("[content]", "")}}</p>
-    </details>
-    {% endmacro %}
