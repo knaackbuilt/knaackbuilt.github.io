@@ -1,5 +1,5 @@
 {% macro card(title, content, link, linktext, imgsource, imgalt) %}
-<div class="m-4 border-solid border-gray-700 border overflow-hidden">
+<div class="m-4 border-solid border-gray-700 border overflow-hidden max-w-lg md:max-w-sm">
   
   <img src="{{ imgsource | replace("[imgsource]", "../img/")}}" alt="{{ imgalt | replace("[imgalt]", "")}}" class="" />
 

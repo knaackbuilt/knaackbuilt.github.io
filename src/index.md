@@ -13,6 +13,22 @@ title: Knaackbuilt.dev
     "[imgsource]",
     "[imgalt]"
 )}}
+{{ macro.card(
+    "[title]Component Index",
+    "[content]Here is an index of all the components that I use on this site",
+    "[link]/components",
+    "[linktext]Component Index",
+    "[imgsource]",
+    "[imgalt]"
+)}}
+{{ macro.card(
+    "[title]Component Index",
+    "[content]Here is an index of all the components that I use on this site",
+    "[link]/components",
+    "[linktext]Component Index",
+    "[imgsource]",
+    "[imgalt]"
+)}}
 
 
 
