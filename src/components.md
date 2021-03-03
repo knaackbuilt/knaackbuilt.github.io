@@ -18,6 +18,14 @@ title: Component Index
     "[title]Detail Title", 
     "[content]Product owners should be multi-disciplinarian representatives of content, design, UX, engineering, and strategy. Effective product owners have experience in all these areas (and more) and are able to blend diverse backgrounds into a well organized framework that models success for the team they work within."
     ) }}
+    {{ macro.details(
+    "[title]Detail Title", 
+    "[content]Product owners should be multi-disciplinarian representatives of content, design, UX, engineering, and strategy. Effective product owners have experience in all these areas (and more) and are able to blend diverse backgrounds into a well organized framework that models success for the team they work within."
+    ) }}
+    {{ macro.details(
+    "[title]Detail Title", 
+    "[content]Product owners should be multi-disciplinarian representatives of content, design, UX, engineering, and strategy. Effective product owners have experience in all these areas (and more) and are able to blend diverse backgrounds into a well organized framework that models success for the team they work within."
+    ) }}
 
 
 {% import '_card.njk' as macro %}
