@@ -4,6 +4,17 @@ title: Component Index
 ---
 # {{ title }}
 
+{% from "./_includes/details/_macro.njk" import details %}
+{{ details({ 
+    title: "NUMBER 2", 
+    content: "this is the content"
+})}}
+
+
+
+
+
+
 
 {% import '_callout.njk' as macro %}
 {{ macro.callout(
@@ -13,6 +24,10 @@ title: Component Index
     )}}
 
 
+{{ details({ 
+    title: "NUMBER 3", 
+    content: "this is the content"
+})}}
 {% import '_details.njk' as macro %}
 {{ macro.details(
     "[title]Detail Title", 
@@ -60,3 +75,4 @@ title: Component Index
 
 ## and some headings
 and some text
+

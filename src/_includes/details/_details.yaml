@@ -1,0 +1,9 @@
+params:
+- name: title
+  type: string
+  required: true
+  description: If `summmaryHtml` is set, this is not required. Text to use within the summary element (the visible part of the details element). If `summaryHtml` is provided, the `summaryText` argument will be ignored.
+- name: content
+  type: string
+  required: true
+  description: If `summmaryText` is set, this is not required. HTML to use within the summary element (the visible part of the details element). If `summaryHtml` is provided, the `summaryText` argument will be ignored.
