@@ -6,12 +6,12 @@ title: Knaackbuilt.dev
 
 {% import '_card.njk' as macro %}
 {{ macro.card(
-    "[title]one",
-    "[content]two",
+    "[title]Component Index",
+    "[content]Here is an index of all the components that I use on this site",
     "[link]/components",
-    "[linktext]our",
-    "[imgsource]captain_ahab.jpg",
-    "[imgalt]Captain ahab"
+    "[linktext]Component Index",
+    "[imgsource]",
+    "[imgalt]"
 )}}
 
 
