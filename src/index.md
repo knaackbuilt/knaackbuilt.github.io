@@ -10,24 +10,24 @@ title: Knaackbuilt.dev
     "[content]Here is an index of all the components that I use on this site",
     "[link]/components",
     "[linktext]Component Index",
-    "[imgsource]",
-    "[imgalt]"
+    "[imgsource]Eastern-Point-light-Homer.jpg",
+    "[imgalt]Eastern Point Light Painting by Winslow Homer"
 )}}
 {{ macro.card(
     "[title]Component Index",
     "[content]Here is an index of all the components that I use on this site",
     "[link]/components",
     "[linktext]Component Index",
-    "[imgsource]",
-    "[imgalt]"
+    "[imgsource]Northeaster-Homer-1895.jpg",
+    "[imgalt]Northeaster Painting by Winslow Homer"
 )}}
 {{ macro.card(
     "[title]Component Index",
     "[content]Here is an index of all the components that I use on this site",
     "[link]/components",
     "[linktext]Component Index",
-    "[imgsource]",
-    "[imgalt]"
+    "[imgsource]Twilight-at-leeds-Homer-1876.jpg",
+    "[imgalt]Twilight at leeds NY by Winslow Homer"
 )}}
 
 
