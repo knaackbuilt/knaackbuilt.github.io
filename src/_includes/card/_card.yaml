@@ -15,11 +15,4 @@ params:
   type: string
   required: true
   description: does this need a thing
-- name: imgsource
-  type: string
-  required: false
-  description: does this need a thing
-- name: imgalt
-  type: string
-  required: false
-  description: does this need a thing
+
