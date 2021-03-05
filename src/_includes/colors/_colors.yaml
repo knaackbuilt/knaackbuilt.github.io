@@ -1,0 +1,10 @@
+params:
+- name: colortitle
+  type: string
+  required: true
+- name: rgba
+  type: string
+  required: true
+- name: twcolor
+  type: string
+  required: true

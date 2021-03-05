@@ -7,42 +7,31 @@ title: Knaackbuilt.dev
 {% from './_includes/details/_macro.njk' import details %}
 {% from './_includes/callout/_macro.njk' import callout%}
 {% from './_includes/button/_macro.njk' import button %}
+{% from './_includes/card/_macro.njk' import card %}
 
-{{ button({ 
-    link: "/components", 
-    buttontext: "Component Index",
-    arialabel: "a link to component index"
+# Projects
+{{ card({ 
+    title:"The card title",
+    content:"the card content",
+    link:"https://apple.com",
+    linktext:"link text"
 })}}
-
-{{ details({ 
-    title: "NUMBER 2", 
-    content: "this is the content"
+{{ card({ 
+    title:"The card title",
+    content:"the card content",
+    link:"https://apple.com",
+    linktext:"link text"
 })}}
-
-{{ details({ 
-    title: "NUMBER 3", 
-    content: "this is the content"
+{{ card({ 
+    title:"The card title",
+    content:"the card content",
+    link:"https://apple.com",
+    linktext:"link text"
 })}}
-
-
-
-
 
 {{ callout({ 
-    content:"huh",
-    ctalink:"https://apple.com",
-    ctatext:"Applessssss"
+    content:"Like what you see? Send me an email!",
+    ctalink:"mailto:jeffknaack@gmail.com",
+    ctatext:"Reach out!"
 })}}
 
-{{ details({ 
-    title: "NUMBER 3", 
-    content: "this is the content"
-})}}
-{{ details({ 
-    title: "NUMBER 3", 
-    content: "this is the content"
-})}}
-{{ details({ 
-    title: "NUMBER 3", 
-    content: "this is the content"
-})}}

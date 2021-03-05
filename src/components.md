@@ -14,15 +14,6 @@ title: Component Index
     content: "this is the content"
 })}}
 
-{{ details({ 
-    title: "NUMBER 3", 
-    content: "this is the content"
-})}}
-
-{{ details({ 
-    title: "NUMBER 3", 
-    content: "this is the content"
-})}}
 
 {{ callout({ 
     content:"huh",
@@ -34,9 +25,7 @@ title: Component Index
     title:"The card title",
     content:"the card content",
     link:"https://apple.com",
-    linktext:"link text",
-    imgsource:"/img/captain_ahab.jpg",
-    imgalt:"captain ahab from moby dick"
+    linktext:"link text"
 })}}
 
 {{ button({ 
@@ -48,6 +37,10 @@ title: Component Index
 1. one
 2. two
 3. three
+
+
+
+[THis is a link](https://apple.com "apple is pretty cool")
 
 ## and some headings
 and some text
