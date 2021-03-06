@@ -11,16 +11,16 @@ title: Knaackbuilt.dev
 
 # Projects
 {{ card({ 
-    title:"The card title",
-    content:"the card content",
-    link:"https://apple.com",
-    linktext:"link text"
+    title:"Color set",
+    content:"The colors used here",
+    link:"/colors",
+    linktext:"Color meeeee"
 })}}
 {{ card({ 
-    title:"The card title",
-    content:"the card content",
-    link:"https://apple.com",
-    linktext:"link text"
+    title:"Components",
+    content:"The components used here",
+    link:"/components",
+    linktext:"Components"
 })}}
 {{ card({ 
     title:"The card title",
