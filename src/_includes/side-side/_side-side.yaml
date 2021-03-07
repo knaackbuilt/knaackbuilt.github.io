@@ -1,17 +1,14 @@
 params:
-- name: content
+- name: lefttitle
   type: string
   required: true
-  description: 
-- name: ctalink
+- name: righttitle
   type: string
   required: true
-  description: 
-- name: ctatext
+- name: text
   type: string
   required: true
-  description: 
-- name: title
+- name: keypoint
   type: string
   required: true
-  description: 
+
