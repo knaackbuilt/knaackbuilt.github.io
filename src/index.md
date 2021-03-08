@@ -3,7 +3,7 @@ layout: layout-homepage.njk
 title: Knaackbuilt.dev
 ---
 # {{ title }}
-
+## This site is a work in progress
 {% from './_includes/details/_macro.njk' import details %}
 {% from './_includes/callout/_macro.njk' import callout%}
 {% from './_includes/button/_macro.njk' import button %}
@@ -23,14 +23,14 @@ title: Knaackbuilt.dev
     linktext:"Components"
 })}}
 {{ card({ 
-    title:"The card title",
-    content:"the card content",
-    link:"https://apple.com",
-    linktext:"link text"
+    title:"Resume",
+    content:"Work in progress!,
+    link:"/resume",
+    linktext:"Beware - work in progress"
 })}}
 
 {{ callout({ 
-    content:"Like what you see? Send me an email!",
+    content:"Send me an email!",
     ctalink:"mailto:jeffknaack@gmail.com",
     ctatext:"Reach out!"
 })}}
