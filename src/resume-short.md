@@ -11,7 +11,8 @@ title: Short Resume of Jeffrey H.S. Knaack
 # {{ title }}
 
 {{ slide({ 
-    slidecolor: "bg-indigo-300"
+    slidecolor: "bg-yellow-300",
+    margin: "ml-32"
 })}}
 
 

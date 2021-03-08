@@ -5,9 +5,9 @@ params:
 - name: righttitle
   type: string
   required: true
-- name: text
+- name: margin
   type: string
   required: true
-- name: keypoint
+- name: k
   type: string
   required: true
