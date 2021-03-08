@@ -3,13 +3,13 @@ layout: layout-homepage.njk
 title: Knaackbuilt.dev
 ---
 # {{ title }}
-## This site is a work in progress
+
 {% from './_includes/details/_macro.njk' import details %}
 {% from './_includes/callout/_macro.njk' import callout%}
 {% from './_includes/button/_macro.njk' import button %}
 {% from './_includes/card/_macro.njk' import card %}
-
-# Projects
+## This site is a work in progress
+## Projects
 {{ card({ 
     title:"Color set",
     content:"The colors used here",
@@ -24,7 +24,7 @@ title: Knaackbuilt.dev
 })}}
 {{ card({ 
     title:"Resume",
-    content:"Work in progress!,
+    content:"Work in progress!",
     link:"/resume",
     linktext:"Beware - work in progress"
 })}}
