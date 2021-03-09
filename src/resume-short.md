@@ -7,30 +7,22 @@ title: Short Resume of Jeffrey H.S. Knaack
 {% from './_includes/card/_macro.njk' import card %}
 {% from './_includes/button/_macro.njk' import button %}
 {% from './_includes/side-side/_macro.njk' import sideside %}
-{% from './_includes/slide/_macro.njk' import slide %}
+{% from './_includes/jobtitle/_macro.njk' import jobtitle %}
 # {{ title }}
 
-{{ slide({ 
-    slidecolor: "bg-yellow-300",
-    margin: "ml-32"
-})}}
 
 
-{{ details({ 
-    title: "NUMBER 2", 
-    content: "this is the content"
-})}}
 
-{{ details({ 
-    title: "NUMBER 2", 
-    content: "this is the content"
+{{ jobtitle({ 
+    jobtitle: "Digital Product Manager",
+    organization: "New York State Digital Service",
+    years: "2020 - present"
 })}}
 
 {{ details({ 
-    title: "NUMBER 2", 
+    title: "Things I worked on", 
     content: "this is the content"
 })}}
-
 
 {{ sideside({ 
     lefttitle:"The Short Version",
