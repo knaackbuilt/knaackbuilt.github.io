@@ -2,11 +2,7 @@
 layout: layout.njk
 title: Long Resume of Jeffrey H.S. Knaack
 ---
-{% from './_includes/details/_macro.njk' import details %}
-{% from './_includes/callout/_macro.njk' import callout %}
-{% from './_includes/card/_macro.njk' import card %}
-{% from './_includes/button/_macro.njk' import button %}
-{% from './_includes/side-side/_macro.njk' import sideside %}
+{% from './_includes/components.njk' import details,callout,card,button,jobtitle,sideside,colors %}
 # {{ title }}
 
 {{ sideside({ 

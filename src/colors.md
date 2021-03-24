@@ -2,7 +2,7 @@
 layout: layout.njk
 title: Colors
 ---
-{% from './_includes/colors/_macro.njk' import colors %}
+{% from './_includes/components.njk' import details,callout,card,button,jobtitle,sideside,colors %}
 # {{ title }}
 
 
