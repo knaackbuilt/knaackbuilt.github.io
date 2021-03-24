@@ -10,7 +10,7 @@ data: bookmarks
 <ul>
 {% for css in bookmarks %}
 {% if css.tag == "css" %}
-<li class="p-3 bg-gray-100"><a href="{{css.url}}" aria-label="{{css.aria}}">{{css.title}}</a> <span class="float-none md:float-right  text-xs p-1 bg-yellow-400" aria-label="{{css.title}} is also in the category of {{css.secondtag}}">{{css.secondtag}}</li>
+<li class="p-3 bg-gray-50"><a href="{{css.url}}" aria-label="{{css.aria}}">{{css.title}}</a><span class="text-sm pl-8"> By {{css.author}}</span> <span class="float-none md:float-right  text-xs p-1 bg-yellow-400" aria-label="{{css.title}} is also in the category of {{css.secondtag}}">{{css.secondtag}}</li>
 {% else %}
 {% endif %}
 {% endfor %}
@@ -22,7 +22,7 @@ data: bookmarks
 <ul>
 {% for access in bookmarks %}
 {% if access.tag == "accessibility" %}
-<li class="bg-gray-100 p-3"><a href="{{access.url}}" aria-label="{{access.aria}}">{{access.title}}</a> <span class="float-none md:float-right text-xs p-1 bg-yellow-400" aria-label="{{access.title}} is also in the category of {{access.secondtag}}">{{access.secondtag}}</span></li> 
+<li class="bg-gray-50 p-3"><a href="{{access.url}}" aria-label="{{access.aria}}">{{access.title}}</a><span class="text-sm pl-8"> By {{access.author}}</span> <span class="float-none md:float-right text-xs p-1 bg-yellow-400" aria-label="{{access.title}} is also in the category of {{access.secondtag}}">{{access.secondtag}}</span></li> 
 {% else %}
 {% endif %}
 {% endfor %}

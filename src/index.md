@@ -20,6 +20,12 @@ title: Knaackbuilt.dev
         content:"My take on a digital resume.",
         link:"/resume",
         linktext:"Read about what I have done"
+        },
+        {
+        title:"Bookmarks",
+        content:"Resources I Use",
+        link:"/ideas/bookmarks",
+        linktext:"Find some useful stuff"
         }
     ]
     

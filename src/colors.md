@@ -27,8 +27,8 @@ title: Colors
     colortitle: "Blue-ish", 
     rgba: "rgba(59, 130, 246, 1)",
     twcolor: "bg-blue-500",
-    rgbahover: "rgba(29, 78, 216, 1)",
-    twcolorhover: "bg-blue-700"
+    rgbahover: "rgba(30, 64, 175, 1)",
+    twcolorhover: "bg-blue-800"
 })}}
 
 {{ colors({ 

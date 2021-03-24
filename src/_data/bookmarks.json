@@ -2,32 +2,43 @@
     {
         "title":"What is the CSS 'ch' unit?",
         "url":"https://meyerweb.com/eric/thoughts/2018/06/28/what-is-the-css-ch-unit/",
+        "author":"Eric A. Meyer",
         "tag":"css",
         "secondtag":"typography",
-        "aria":"What is the CSS ch unit article link"
+        "aria":"What is the CSS ch unit article link at meyerweb.com"
+    },
+    {
+        "title":"How to Align Last Flex Item to Right",
+        "url":"https://medium.com/@iamryanyu/how-to-align-last-flex-item-to-right-73512e4e5912",
+        "author":"Ryan Yu",
+        "tag":"css",
+        "secondtag":"alignment",
+        "aria":"How to Align Last Flex Item to Right article link "
     },
     {
         "title":"Accessible Text Labels for all",
         "url":"https://www.sarasoueidan.com/blog/accessible-text-labels/",
+        "author":"Sara Soueidan",
         "tag":"accessibility",
         "secondtag":"forms",
-        "aria":"Accessible text labels for all link"
+        "aria":"Accessible text labels for all link at sarasoueidan.com" 
     },
     {
         "title":"Inclusive Design Principles",
         "url":"https://inclusivedesignprinciples.org/",
+        "author":"multiple",
         "tag":"accessibility",
         "secondtag":"design",
-        "aria":"Inclusive design principles link"
+        "aria":"Inclusive design principles link external"
     },
     {
-        "title":"Inclusive Design Principles that is a mich longer title to see what happens",
-        "url":"https://inclusivedesignprinciples.org/",
-        "tag":"accessibility",
-        "secondtag":"design",
-        "aria":"Inclusive design principles link"
+        "title":"In Praise of the Unambiguous Click Menu",
+        "url":"https://css-tricks.com/in-praise-of-the-unambiguous-click-menu/",
+        "author":"Mark Root-Wiley ",
+        "tag":"css",
+        "secondtag":"interaction",
+        "aria":"In Praise of the Unambiguous Click Menu link at css-tricks.com"
     }
-
 
 
 
