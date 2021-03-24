@@ -16,10 +16,10 @@ title: Knaackbuilt.dev
         linktext:"Color meeeee"
         },
         {
-        title:"Color set",
-        content:"The colors used here",
-        link:"/colors",
-        linktext:"Color meeeee"
+        title:"Resume",
+        content:"My take on a digital resume.",
+        link:"/resume",
+        linktext:"Read about what I have done"
         }
     ]
     
