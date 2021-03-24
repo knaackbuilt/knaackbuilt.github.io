@@ -5,15 +5,15 @@
         "author":"Eric A. Meyer",
         "tag":"css",
         "secondtag":"typography",
-        "aria":"What is the CSS ch unit article link at meyerweb.com"
+        "aria":"What is the CSS ch unit article link to meyerweb.com"
     },
     {
         "title":"How to Align Last Flex Item to Right",
         "url":"https://medium.com/@iamryanyu/how-to-align-last-flex-item-to-right-73512e4e5912",
         "author":"Ryan Yu",
         "tag":"css",
-        "secondtag":"alignment",
-        "aria":"How to Align Last Flex Item to Right article link "
+        "secondtag":"layout",
+        "aria":"How to Align Last Flex Item to Right article link to external"
     },
     {
         "title":"Accessible Text Labels for all",
@@ -21,7 +21,7 @@
         "author":"Sara Soueidan",
         "tag":"accessibility",
         "secondtag":"forms",
-        "aria":"Accessible text labels for all link at sarasoueidan.com" 
+        "aria":"Accessible text labels for all link to sarasoueidan.com" 
     },
     {
         "title":"Inclusive Design Principles",
@@ -37,7 +37,15 @@
         "author":"Mark Root-Wiley ",
         "tag":"css",
         "secondtag":"interaction",
-        "aria":"In Praise of the Unambiguous Click Menu link at css-tricks.com"
+        "aria":"In Praise of the Unambiguous Click Menu link to css-tricks.com"
+    },
+    {
+        "title":"Ten modern layouts in one line of CSS",
+        "url":"https://web.dev/one-line-layouts/",
+        "author":"web.dev",
+        "tag":"css",
+        "secondtag":"layout",
+        "aria":"Ten modern layouts in one line of CSS link to css-tricks.com"
     }
 
 
