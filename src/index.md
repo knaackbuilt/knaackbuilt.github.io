@@ -2,10 +2,9 @@
 layout: layout-homepage.njk
 title: Knaackbuilt.dev
 ---
-# {{ title }}
+# {{title}}
 {% from './_includes/components.njk' import details,callout,card,button,jobtitle,sideside,colors %}
-## This site is a work in progress
-## Projects
+
 
 {{ card({ 
     cards: [

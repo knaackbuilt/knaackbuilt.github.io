@@ -1,10 +1,14 @@
-<div class=" flex-col md:grid"> 
-    <details class="font-bold pt-8 w-max cursor-pointer hidden md:block"><summary class="text-xl">{{ params.colortitle }}</summary><p class="text-sm">{{ params.rgba }}</p> <p class="text-sm">{{ params.rgbahover }} <strong> (hover)</strong></p></details>
-    <div class="inline-flex flex-row mx-8">
-        <span class="rounded-full {{ params.twcolor }} hover:{{ params.twcolorhover }} p-12 md:p-20 border-4 border-dashed border-black m-4 ml-0"> 
-        </span><p class="md:hidden flex items-center text-xs bg-white p-1 rounded-md">{{ params.colortitle }} <br> {{ params.rgba }}</p>
-   </div>
-    <div class="inline-flex flex-row mx-8">
-   <span class="rounded-full md:hidden block {{ params.twcolorhover }} p-12 md:p-20 border-4 border-dashed border-black m-4 ml-0"> 
-        </span><p class="md:hidden flex items-center text-xs bg-white p-1 rounded-md">{{ params.colortitle }} (hover) <br> {{ params.rgbahover }}</p></div>
+<div class="flex flex-col md:flex-row flex-wrap"> 
+{% for color in params.color %}
+<div class="">
+<details class="font-bold pt-8 w-max cursor-pointer hidden md:block"><summary class="text-xl">{{ color.colortitle }}</summary><p class="text-sm">{{ color.rgba }}</p> <p class="text-sm">{{ color.rgbahover }} <strong> (hover/alternate)</strong></p></details>
+<div class="inline-flex flex-row mx-8">
+<span class="rounded-full {{ color.twcolor }} hover:{{ color.twcolorhover }} p-12 md:p-20 border-4 border-dashed border-black m-4 ml-0"> 
+</span><p class="md:hidden flex items-center text-xs bg-white p-1 rounded-md">{{ color.colortitle }} <br> {{ color.rgba }}</p>
+</div>
+<div class="inline-flex flex-row mx-8">
+<span class="rounded-full md:hidden block {{ color.twcolorhover }} p-12 md:p-20 border-4 border-dashed border-black m-4 ml-0"> 
+</span><p class="md:hidden flex items-center text-xs bg-white p-1 rounded-md">{{ color.colortitle }} (hover/alternate) <br> {{ color.rgbahover }}</p></div>
+</div>
+{% endfor %}
  </div>

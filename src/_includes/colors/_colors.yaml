@@ -1,16 +1,19 @@
 params:
-- name: colortitle
-  type: string
-  required: true
-- name: rgba
-  type: string
-  required: true
-- name: rgbahover
-  type: string
-  required: true
-- name: twcolor
-  type: string
-  required: true
-- name: twcolorhover
-  type: string
-  required: true
+- name: color
+  type: array
+  params:  
+  - name: colortitle
+    type: string
+    required: true
+  - name: rgba
+    type: string
+    required: true
+  - name: rgbahover
+    type: string
+    required: true
+  - name: twcolor
+    type: string
+    required: true
+  - name: twcolorhover
+    type: string
+    required: true
