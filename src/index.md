@@ -9,12 +9,6 @@ title: Knaackbuilt.dev
 {{ card({ 
     cards: [
         {
-        title:"Color set",
-        content:"The colors used here",
-        link:"/colors",
-        linktext:"Color meeeee"
-        },
-        {
         title:"Resume",
         content:"My take on a digital resume.",
         link:"/resume",
@@ -25,7 +19,15 @@ title: Knaackbuilt.dev
         content:"Resources I Use",
         link:"/ideas/bookmarks",
         linktext:"Find some useful stuff"
+        },
+        {
+        title:"Color set",
+        content:"The colors used here",
+        link:"/colors",
+        linktext:"Color meeeee"
         }
+        
+        
     ]
     
 })}}
