@@ -1,9 +1,11 @@
 ---
 layout: layout.njk
-title: Resume of Jeffrey H.S. Knaack
+title: Resume of Jeffrey H.S. Knaack - under construction work in progress
 ---
 {% from './_includes/components.njk' import details,callout,card,button,jobtitle,sideside,colors %}
 # {{ title }}
+
+> I build simple and functional digital products while advocating for inclusive, accessible, and open technologies. <br> He/Him. Pronounced Kuh-naa-ck - not a silent "k." (German origin)
 
 {{ jobtitle({ 
     jobtitle: "Digital Product Manager",
