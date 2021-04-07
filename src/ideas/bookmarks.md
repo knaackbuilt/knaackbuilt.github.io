@@ -18,6 +18,18 @@ data: bookmarks
 </article> 
 
 <article class="my-6">
+<h2 class="text-2xl font-bold text-yellow-800"> HTML</h2>
+<ul>
+{% for html in bookmarks %}
+{% if html.tag == "html" %}
+<li class="bg-gray-50 p-3"><a href="{{html.url}}" aria-label="{{html.aria}}">{{html.title}}</a><span class="text-sm pl-8"> By {{html.author}}</span> <span class="float-none md:float-right text-xs p-1 bg-yellow-400" aria-label="{{html.title}} is also in the category of {{html.secondtag}}">{{html.secondtag}}</span></li> 
+{% else %}
+{% endif %}
+{% endfor %}
+</ul>
+</article>
+
+<article class="my-6">
 <h2 class="text-2xl font-bold text-yellow-800"> Accessibility</h2>
 <ul>
 {% for access in bookmarks %}

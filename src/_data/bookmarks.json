@@ -46,11 +46,19 @@
         "tag":"css",
         "secondtag":"layout",
         "aria":"Ten modern layouts in one line of CSS link to css-tricks.com"
+    },
+    {
+        "title":"HTML Elements and Attributes",
+        "url":"https://simon.html5.org/html-elements",
+        "author":"Simon Pieters",
+        "tag":"html",
+        "secondtag":"layout",
+        "aria":"all the html elements link to simon.html5.org"
     }
 
 
 
-
+    
 
 
 ]
