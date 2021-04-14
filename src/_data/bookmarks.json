@@ -54,11 +54,19 @@
         "tag":"html",
         "secondtag":"layout",
         "aria":"all the html elements link to simon.html5.org"
+    },
+    {
+        "title":"Good HTML Semantics",
+        "url":"https://mdn.github.io/learning-area/accessibility/html/good-semantics.html",
+        "author":"MDN",
+        "tag":"html",
+        "secondtag":"pirate speak",
+        "aria":"html good semantics link to mozilla developer network"
     }
 
 
 
     
-
+    
 
 ]
