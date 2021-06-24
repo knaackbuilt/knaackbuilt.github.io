@@ -26,7 +26,7 @@ title: Knaackbuilt.dev
     
 })}}
 
-<p class="my-8 mx-4">One thing I was inspired to do here is build this website without using div's or span's and really try to focus on good semantic html. It makes you think more about what you are building and why.</p>
+<p class="my-8 mx-4">One thing I was inspired to do here is build this website using few div's or span's and really try to focus on good semantic html. It makes you think more about what you are building and why.</p>
 
 {{ callout({ 
     content:"Send me an email!",

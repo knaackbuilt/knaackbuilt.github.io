@@ -1,0 +1,8 @@
+params:
+- name: src
+  type: string
+  required: true
+- name: alttxt
+  type: string
+  required: true
+
