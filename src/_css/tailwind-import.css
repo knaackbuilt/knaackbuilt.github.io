@@ -2,10 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@layer components {
+/* @layer components {
     h1 {
         @apply text-2xl text-red-800
     }
-}
+} */
 
 
