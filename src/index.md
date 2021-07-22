@@ -17,7 +17,7 @@ title: Knaackbuilt.dev
         {
         title:"Bookmarks",
         content:"Resources I use and would very much like not to forget.",
-        link:"/ideas/bookmarks",
+        link:"/bookmarks",
         linktext:"Find some useful stuff"
         },
          {

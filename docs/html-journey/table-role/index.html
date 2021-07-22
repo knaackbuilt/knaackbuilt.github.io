@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/css/tw-prod.css" rel="stylesheet">
+    <link href="/css/tailwind.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,600;0,700;0,800;1,400;1,700;1,800&display=swap" rel="stylesheet"> 
 <style>
@@ -48,15 +48,26 @@
         list-style:decimal;
         margin-left: 1.8rem;
       }
+      main ul {
+        list-style:disc;
+        margin-left: 1.8rem;
+      }
 
 
 </style>
-    <title>My Views on Better Design for a Useful Internet</title>
+    <title>Is &lt;table role=&quot;grid&quot;&gt; ok?</title>
   </head>
    <body class="">
-  <nav>  </nav>
+  <nav class="w-1/4 mt-6"> <a href="../" class="font-bold p-4"> back </a>  </nav>
   <main class="mx-8 md:mx-20">
-   <p>My Views on Better Design for a Useful Internet</p>
+   <h1>Is &lt;table role=&quot;grid&quot;&gt; ok?</h1>
+<p>Is table role=&quot;grid&quot; a problem?</p>
+<ul>
+<li><a href="https://datatables.net/forums/discussion/68343/usage-of-the-role-attribtes">https://datatables.net/forums/discussion/68343/usage-of-the-role-attribtes</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Grid_Role">https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Grid_Role</a></li>
+<li><a href="https://www.w3.org/TR/wai-aria-practices/examples/grid/dataGrids.html">https://www.w3.org/TR/wai-aria-practices/examples/grid/dataGrids.html</a></li>
+</ul>
+<p><strong>Conclusion:</strong> probably not an issue? I'm like 63% sure on that...</p>
 
    </main>
     <footer class="text-xs text-center mt-12">
