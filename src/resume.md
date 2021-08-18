@@ -1,21 +1,21 @@
 ---
 layout: layout.njk
-title: Resume of Jeffrey H.S. Knaack - under construction work in progress
+title: Jeffrey H.S. Knaack
 ---
 {% from './_includes/components.njk' import details,callout,card,button,jobtitle,sideside,avatar %}
-# {{ title }}
+<h1 class="my-4 py-4 text-center">{{ title }}</h1>
 
 {{ avatar({ 
     src: "/img/avatar.jpg",
-    alt: "it's a picture of my face and I'm smiling and wearing a baseball cap that says dad and I have an awesome beard and glasses"
+    alt: "it's my face and I'm smiling and wearing a baseball cap that says dad and I have an awesome beard and glasses"
 })}}
 
-> I build simple and functional digital products while advocating for inclusive, accessible, and open technologies. <br> He/Him. Pronounced Kuh-naa-ck - not a silent "k." (German origin)
+> I build simple and functional digital products while advocating for inclusive, accessible, and open technologies. He/Him. Pronounced Kuh-naa-ck - not a silent "k." (German origin)
 
 For a more detailed and nuanced resume discussion, [please see my gitbook resume](https://app.gitbook.com/@jeffknaack/s/jeffrey-h-s-knaack-resume/)
 
 {{ jobtitle({ 
-    jobtitle: "Digital Product Manager",
+    jobtitle: "Digital Product Manager & Solutions Architect",
     organization: "New York State Digital Service",
     years: "2020 - present"
 })}}
