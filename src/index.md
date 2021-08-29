@@ -16,11 +16,7 @@ title: Knaackbuilt.dev
         },
         {
         title:"Bookmarks",
-<<<<<<< Updated upstream
         content:"Resources I use and would very much like not to forget.",
-=======
-        content:"Resources I Use",
->>>>>>> Stashed changes
         link:"/bookmarks",
         linktext:"Find some useful stuff"
         },
