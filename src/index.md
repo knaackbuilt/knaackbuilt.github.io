@@ -35,6 +35,7 @@ title: Knaackbuilt.dev
 <p class="my-8 mx-4">One thing I was inspired to do here is build simply and focus on good semantics. It makes you think more about what you are building and why.</p>
 
 {{ callout({ 
+    title:"Connect",
     content:"Send me an email!",
     ctalink:"mailto:jeffknaack@gmail.com",
     ctatext:"Reach out!"
